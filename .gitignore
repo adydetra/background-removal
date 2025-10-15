@@ -1,0 +1,37 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# IDE & editor
+.vscode/
+.idea/
+.fleet/
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache directories
+.cache/
+
+# Project-specific outputs
+output/
